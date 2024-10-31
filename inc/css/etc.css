@@ -1,0 +1,48 @@
+.oxsn_accordion_title {
+    display: inline-block;
+    width: 100%;
+    border: 1px solid #d7d7d7;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    padding: 15px;
+    margin: 0 0 15px;
+    cursor: hand;
+    cursor: pointer;
+    position: relative;
+}
+
+.oxsn_accordion_title:hover {
+    opacity: 0.7;
+}
+
+.oxsn_accordion_title .oxsn_inactive_icon {
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    height: 100%;
+}
+
+.oxsn_accordion_title.active .oxsn_inactive_icon {
+    display: none;
+}
+
+.oxsn_accordion_title .oxsn_active_icon {
+    display: none;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    height: 100%;
+}
+
+.oxsn_accordion_title.active .oxsn_active_icon {
+    display: inline-block;
+}
+
+.oxsn_accordion_content {
+    display: inline-block;
+    width: 100%;
+    padding: 0 15px 15px;
+    display: none;
+    margin: 0;
+}
